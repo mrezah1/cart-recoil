@@ -1,0 +1,24 @@
+.nav {
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  padding: 1rem 0;
+}
+.nav > div {
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav a {
+  color: #fff;
+  padding: 1rem;
+}
+.cart {
+  background-color: #fff;
+  color: #222;
+  border-radius: 4px;
+  padding: 0.35rem 1rem;
+}
