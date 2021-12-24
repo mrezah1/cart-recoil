@@ -1,0 +1,47 @@
+.wrapperProducts {
+  display: flex;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.wrapperProducts > div {
+  width: calc(30% - 3.1rem);
+  margin: 1rem;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+.wrapperProducts .wrapImg {
+  text-align: center;
+}
+.wrapperProducts .wrapImg img {
+  height: 150px;
+  padding: 0.8rem 0;
+}
+.wrapperProducts .content {
+  background-color: #f0f1ff;
+  padding: 1rem;
+  border-radius: 12px 12px 0 0;
+}
+.wrapperProducts .content h2 {
+  font-size: 1.2rem;
+}
+.wrapperProducts .content p{
+    margin: 1.2rem 0;
+}
+.wrapperProducts .content button {
+  width: 90%;
+  display: block;
+  background-color: rgb(18, 113, 255);
+  color: #fff;
+  outline: none;
+  border-radius: 2px;
+  border: none;
+  margin: auto;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 0.45rem;
+  transition: 0.2s;
+}
+.wrapperProducts .content button:hover {
+  opacity: 0.9;
+}
