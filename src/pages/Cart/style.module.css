@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 1.2rem;
+}
+.wrapperCart {
+  width: 68%;
+}
+.checkout {
+  width: 26%;
+}
+.cartItem {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+}
+.cartTitle {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+.cartPrice {
+  width: 15%;
+}
+.cartQuantity {
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+.cartQuantity button {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-weight: bold;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.cartQuantity span {
+  margin: 0 0.75rem;
+}
+.cartClose {
+  width: 10%;
+  cursor: pointer;
+}
+.cartItem img {
+  width: 70px;
+  height: 60px;
+  margin-right: 1.5rem;
+  flex-shrink: 0;
+}
+.cartItem div {
+  padding: 0 0.5rem;
+}
+.checkout {
+  border: 1px solid #ddd;
+  height: 100%;
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+.checkout > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8rem 0;
+}
+.checkout button {
+  background-color: #3765fc;
+  color: #fff;
+  outline: none;
+  width: 80%;
+  margin-top: 1rem;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
